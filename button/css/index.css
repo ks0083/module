@@ -1,0 +1,50 @@
+.contentsArea{
+  background: #000000;
+}
+
+.section{
+  text-align: center;
+}
+
+.btn__area{
+  display: inline-block;
+}
+
+.btn__rollover{
+  background: #ffffff;
+  display: block;
+  position: relative;
+}
+
+.btn__rollover--typeA{
+  transform: skew(15deg);
+}
+
+.btn__rollover--typeB{
+  transform: skew(-15deg);
+}
+
+.btn__rollover--typeC{
+ border-radius: 25px;
+}
+
+.btn__rollover--typeD{
+ border-radius: 20px;
+}
+
+.btn__rollover .btn__img--typeA{
+ transform: skew(-15deg) scale(1.024); 
+}
+
+.btn__rollover .btn__img--typeB{
+ transform: skew(15deg) scale(1.024); 
+}
+
+.btn__rollover .btn__img:hover{
+  opacity: 0.7;
+}
+
+img{
+  vertical-align: top;
+  border: 0;
+}
